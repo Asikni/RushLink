@@ -1,4 +1,5 @@
 import { HeroSlider } from "./HeroSlider/HeroSlider";
+import { SearchBar } from "./searchbar";
 
 export const Hero = () => {
   return (
@@ -9,6 +10,7 @@ export const Hero = () => {
         <p className="heading3">
           Your Source for Fraternity and Sorority News & Reviews.
         </p>
+        <SearchBar />
       </div>
 
       <div>
