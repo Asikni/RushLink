@@ -5,8 +5,8 @@ export const News = () => {
     <div>
       <div className="newsHeading">News</div>
       <div className="newsPreview">
-        {NewsImages.map((image) => (
-          <div>
+        {NewsImages.map((image, index) => (
+          <div key={index}>
             <Image
               className="newsPreviewImage"
               src={image.image}

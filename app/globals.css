@@ -202,6 +202,13 @@ input {
   font-size: 25px;
   background-color: transparent;
 }
-.rankingSection{
-  padding-left: 55px;
+.rankingSection {
+  padding: 0px 55px 0px 55px;
+}
+
+.fsLogoImages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
 }
