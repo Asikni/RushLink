@@ -22,9 +22,9 @@
   text-align: center;
 }
 
-.postSubHeading{
-    display: flex;
-    justify-content: center;
+.postSubHeading {
+  display: flex;
+  justify-content: center;
 }
 .Subheadings {
   width: 423px;
@@ -33,5 +33,44 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+}
+.organizationHeadingOne {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--Primary);
+  padding: 55px 55px 35px 55px;
+}
+
+.organizationHeadingTwo {
+  color: var(--Primary);
+}
+.organizationHeadingThree {
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 55px;
+}
+.newsHeading {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--Primary);
+  padding: 75px 55px 50px 55px;
+}
+
+.rankingHeading {
+  font-weight: 700;
+  font-size: 60px;
+  padding: 55px 0px 20px 0px;
+  color: var(--Primary);
+}
+
+.subHeadingOne {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.subHeadingTwo {
+  font-weight: 500;
+  font-size: 20px;
+  padding-bottom: 20px;
 }

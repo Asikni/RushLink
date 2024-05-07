@@ -5,7 +5,7 @@
   --Secondary: #0f0f0f;
   --PrimaryLight: #ff575799;
   --Grey: #c1c1c1;
-  --LightGrey: #c1c1c173;
+  --LightGrey: rgba(193, 193, 193, 0.451);
   --RedBorder: 1px solid red;
   --BlueBorder: 1px solid blue;
   --GreenBorder: 1px solid green;
@@ -93,4 +93,115 @@ input {
   border: var(--RedBorder);
   display: flex;
   align-self: center;
+}
+
+.cards {
+  display: flex;
+  padding: 35px 75px 0px 75px;
+  justify-content: space-evenly;
+}
+
+.individualCard {
+  width: 527px;
+  height: 429px;
+  border-radius: 9.9px;
+  border: 1px solid rgba(193, 193, 193, 1);
+}
+
+.cardTopHeading {
+  border-bottom: 1px solid var(--Grey);
+  padding: 35px 0px 35px 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cardComment {
+  padding: 35px 25px 35px 25px;
+  font-weight: 400;
+  font-size: 18px;
+  height: 200px;
+  border: var(--BlueBorder);
+}
+.byDate {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 25px 35px 25px;
+}
+.commentsData {
+  padding-left: 25px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 18.9px;
+}
+.views {
+  color: var(--Primary);
+}
+
+.likes {
+  color: var(--Primary);
+}
+.dislikes {
+  color: var(--Primary);
+}
+.fsLogosBox {
+  padding: 55px 0px 0px 85px;
+}
+.fsLogos {
+  border: var(--BlueBorder);
+  width: 1105px;
+  height: 500px;
+  overflow-y: hidden;
+}
+
+.horizontalLine {
+  border-bottom: 1px solid var(--Grey);
+  margin-top: 250px;
+}
+
+.verticalLineOne {
+  border-left: 1px solid rgba(193, 193, 193, 1);
+  height: 500px;
+  margin-left: 250px;
+}
+.verticalLineTwo {
+  border-left: 1px solid var(--Grey);
+  height: 500px;
+  margin-left: 100px;
+}
+.verticalLineThree {
+  border-right: 1px solid var(--Grey);
+}
+
+.newsPreview {
+  display: flex;
+  position: relative;
+  border: var(--BlueBorder);
+  padding: 0px 55px 0px 55px;
+  justify-content: space-between;
+}
+.newsPreviewText {
+  border: var(--GreenBorder);
+  position: absolute;
+  width: 27.56%;
+  height: 100px;
+  top: 300px;
+  background-color: transparent;
+}
+
+.newsNameDate {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--Primary);
+  background-color: transparent;
+}
+
+.newsArticlePreview {
+  font-weight: 500;
+  font-size: 25px;
+  background-color: transparent;
+}
+.rankingSection{
+  padding-left: 55px;
 }
