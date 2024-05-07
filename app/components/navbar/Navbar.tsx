@@ -1,5 +1,6 @@
 import { NavBarData } from "@/app/utils/constants";
 import "@/app/navbar.css";
+import "@/app/headings.css"
 export const Navbar = () => {
   return (
     <nav>

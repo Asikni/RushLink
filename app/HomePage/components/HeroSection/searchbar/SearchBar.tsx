@@ -1,7 +1,7 @@
-export const SearchBar = () =>{
+export const SearchBar = () => {
     return(
         <div className="searchComponent">
-            <input type="text" />
+            <input type="text" placeholder="Search For Organiszations"/>
             <div className="searchMagnifyingBox"></div>
         </div>
     )

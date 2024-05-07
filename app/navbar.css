@@ -2,39 +2,24 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  /* top: 55px;
-  left: 56px; */
+  padding: 55px;
 }
 
 .rushLinkLogo {
   background-image: url("../public/assets/SVG/rushLinkLogo.svg");
   width: 211px;
   height: 36px;
-  border: 1px solid red;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .navBarLinks {
   display: flex;
   width: 630px;
-  border: 1px solid red;
+ 
 }
 .navBarLink {
   display: flex;
   font-weight: 400;
   font-size: 18px;
   gap: 50px;
-}
-.searchMagnifyingBox {
-  background-image: url("../public/assets/SVG/magnifierSearch.svg");
-
-  background-repeat: no-repeat;
-    background-position: center;
-  width: 104px;
-  height: 90px;
-  background-color: var(--Primary);
-  border-radius: 0px 11px 11px 0px;
-}
-.searchComponent {
-  display: flex;
 }
