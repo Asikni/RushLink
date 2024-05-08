@@ -1,1 +1,1 @@
-export * from "./fsLogos"
+export * from "./FsLogos"

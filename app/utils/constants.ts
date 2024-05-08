@@ -28,8 +28,11 @@ export const CardsData = [
       "A really great brotherhood! Super close and fun to be around. They're really chill, and it's sad to see them die over the years. They're very academically inclined and respectful gentlemen overall.",
     cardBy: "AashishTKher",
     DateTime: "Apr 27, 2024 6:48:20 PM",
+    ViewsLogo: "/assets/SVG/Views.svg",
     Views: 25,
+    LikesLogo: "/assets/SVG/Likes.svg",
     Likes: 0,
+    DislikesLogo: "/assets/SVG/Dislikes.svg",
     Dislikes: 5,
   },
   {
@@ -37,8 +40,11 @@ export const CardsData = [
     cardComments: "We are at the mercy of hands that are not our own.",
     cardBy: "AaBad",
     DateTime: "Apr 28, 2023 8:48:20 PM",
+    ViewsLogo: "/assets/SVG/Views.svg",
     Views: 105,
+    LikesLogo: "/assets/SVG/Likes.svg",
     Likes: 12,
+    DislikesLogo: "/assets/SVG/Dislikes.svg",
     Dislikes: 5,
   },
 ];
@@ -149,5 +155,17 @@ export const FSLogos = [
   {
     image: "/assets/SVG/fsLogo8.svg",
     logo: "/assests/SVG/numberLogo8.svg",
+  },
+];
+
+export const SocialMediaLogos = [
+  {
+    logo: "/assets/SVG/facebookFooterLogo.svg",
+  },
+  {
+    logo: "/assets/SVG/twitterFooterLogo.svg",
+  },
+  {
+    logo: "/assets/SVG/instagramFooterLogo.svg",
   },
 ];

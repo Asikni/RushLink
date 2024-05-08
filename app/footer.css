@@ -1,0 +1,49 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 55px 100px 55px 55px;
+}
+
+.rushLinkLogoFooter {
+  background-image: url("../public/assets/SVG/rushLinkLogo.svg");
+  width: 211px;
+  height: 36px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 76px;
+}
+.socialMediaLogos {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerDetails {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: var(--BlueBorder);
+}
+
+.Links,
+.Contact,
+.Resources {
+  color: var(--Primary);
+  padding: 10px 0px 76px 0px;
+}
+.siteLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  border: var(--GreenBorder);
+  gap: 50px;
+}
+.rl {
+  display: flex;
+  justify-content: center;
+  padding: 55px 0px;
+}

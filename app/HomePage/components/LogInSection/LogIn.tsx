@@ -1,19 +1,22 @@
 import Image from "next/image";
 import { LogInButton } from "./componentss/Button";
+
 export const LogIn = () => {
   return (
-    <div>
-      <Image
-        src="/assets/PNG/logInImage.png"
-        width={1067}
-        height={409}
-        alt="log-in background image"
-      />
-      <div>
-      <div className="logInHeading">Didn't find your school?</div>
-      <div className="logInSubHeading">Request for your school to be featured on</div>
+    <div className="logInComponent">
+      <div className="logInBgImage">
+        <div className="logInImageContent">
+          <h1 className="logInHeading">Didn't find your school?</h1>
+          <h2 className="logInSubHeading">
+            Request for your school to be featured on
+          </h2>
+
+          <LogInButton />
+        </div>
       </div>
-      <LogInButton />
+      <div className="bgLogoone">
+        <div className="bgLogo"></div>
+      </div>
     </div>
   );
 };

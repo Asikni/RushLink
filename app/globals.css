@@ -202,7 +202,7 @@ input {
 .newsPreviewText {
   border: var(--GreenBorder);
   position: absolute;
-  width: 27.56%;
+  width: 370px;
   height: 100px;
   top: 300px;
   background-color: transparent;
@@ -237,8 +237,43 @@ input {
 }
 .logoNumber {
   position: absolute;
-
 }
-.logInButton{
+
+.logInComponent {
+  padding: 100px 0px 0px 106px;
   border: var(--GreenBorder);
+}
+
+.logInBgImage {
+  background-image: url("/assets/PNG/logInImage.png");
+  width: 1067px;
+  height: 409px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.logInImageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  padding-top: 100px;
+}
+.logInButton {
+  font-size: 25px;
+  font-weight: 500;
+  background-color: transparent;
+}
+.bgLogoone {
+  display: flex;
+  justify-content: right;
+}
+.bgLogo {
+  background-image: url("/assets/SVG/bgImageLogo.svg");
+  width: 42%;
+  height: 155px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 400px;
 }

@@ -33,12 +33,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 25px 0px 40px 0px;
 }
 .organizationHeadingOne {
   font-weight: 700;
   font-size: 60px;
   color: var(--Primary);
-  padding: 55px 55px 35px 55px;
+  padding: 200px 55px 35px 55px;
 }
 
 .organizationHeadingTwo {
@@ -59,22 +60,45 @@
 .rankingHeading {
   font-weight: 700;
   font-size: 60px;
-  padding: 55px 0px 20px 0px;
+  padding: 200px 0px 20px 0px;
   color: var(--Primary);
 }
 
 .subHeadingOne {
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .subHeadingTwo {
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
-.logInHeading{
-  
+.logInHeading {
+  font-weight: 700;
+  font-size: 60px;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+
+.logInSubHeading {
+  font-weight: 500;
+  font-size: 25px;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+
+.footerHeadings {
+  width: 35%;
+}
+.footerSubHeading {
+  font-weight: 500;
+  font-size: 20px;
+}
+.footerSubHeadingSocialMedia {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 149px 0px 46px 0px;
 }
