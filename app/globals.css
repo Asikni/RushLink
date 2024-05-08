@@ -12,11 +12,16 @@
 
   margin: 0;
   padding: 0;
-  background-color: var(--Secondary);
+  /* background-color: var(--Secondary); */
   color: rgba(255, 255, 255, 1);
   font-family: "DM Sans";
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+body {
+  background-color: var(--Secondary);
+  /* max-width: 1800px; */
 }
 
 .heroSection {
@@ -57,6 +62,8 @@ input {
 
   position: relative;
 }
+
+
 .dotsLogoOne {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
@@ -106,8 +113,27 @@ input {
   height: 429px;
   border-radius: 9.9px;
   border: 1px solid rgba(193, 193, 193, 1);
-}
 
+  z-index: 0;
+}
+@media only screen and (max-width: 768px) {
+  .sliderImages {
+    display: none;
+  }
+  .dotsLogoOne {
+    display: none;
+  }
+  input{
+    width: 269px;
+    height: 52px;
+  }
+  .searchMagnifyingBox {
+    background-image: url("/assets/SVG/magnifierSearchMobile.svg");
+    width: 55px;
+    height: 52px;
+  }
+  
+}
 .cardTopHeading {
   border-bottom: 1px solid var(--Grey);
   padding: 35px 0px 35px 25px;
@@ -205,20 +231,20 @@ input {
   width: 370px;
   height: 100px;
   top: 300px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .newsNameDate {
   font-weight: 400;
   font-size: 20px;
   color: var(--Primary);
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .newsArticlePreview {
   font-weight: 500;
   font-size: 25px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 .rankingSection {
   padding: 0px 55px 0px 55px;
@@ -257,7 +283,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: transparent;
+  /* background-color: transparent; */
   padding-top: 100px;
 }
 .logInButton {
@@ -276,4 +302,15 @@ input {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 400px;
+}
+
+.bgEllipseImage {
+  background-image: url("/assets/SVG/bgEllipseCardsSection.svg");
+  width: 437px;
+  height: 437px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -50px;
+  z-index: 10;
 }

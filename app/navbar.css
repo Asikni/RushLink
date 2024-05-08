@@ -4,7 +4,12 @@
   position: relative;
   padding: 55px;
 }
-
+.sidebar {
+  display: none;
+}
+.darkLightMode {
+  display: none;
+}
 .rushLinkLogo {
   background-image: url("../public/assets/SVG/rushLinkLogo.svg");
   width: 211px;
@@ -15,11 +20,42 @@
 .navBarLinks {
   display: flex;
   width: 630px;
- 
 }
 .navBarLink {
   display: flex;
   font-weight: 400;
   font-size: 18px;
   gap: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBar {
+    padding: 55px 30px 55px 30px;
+  }
+  .navBarLinks {
+    display: none;
+  }
+  .sidebar {
+    background-image: url("../public/assets/SVG/sidebar.svg");
+    width: 30px;
+    height: 16.66px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }
+  .rushLinkLogo {
+    background-image: url("../public/assets/SVG/navbarLogoMobile.svg");
+    width: 93px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .darkLightMode {
+    background-image: url("../public/assets/SVG/lightDarkMode.svg");
+    width: 19.3px;
+    height: 19.3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }
 }

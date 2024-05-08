@@ -3,10 +3,13 @@ import { SearchBar } from "./searchbar";
 
 export const Hero = () => {
   return (
-    <div className="heroSection" style={{border:"1px solid red"}}>
+    <div className="heroSection" style={{ border: "1px solid red" }}>
       <div className="heroHeading">
-        <div className="heading1">Welcome To</div>
-        <div className="heading2">Rushlink</div>
+        <div className="heading1">
+          Welcome To <br className="break-md" />
+          <span className="heading2">RushLink</span>
+        </div>
+
         <p className="heading3">
           Your Source for Fraternity and Sorority News & Reviews.
         </p>

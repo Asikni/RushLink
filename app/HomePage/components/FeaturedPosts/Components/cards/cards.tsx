@@ -2,6 +2,7 @@ import { CardsData } from "@/app/utils/constants";
 import Image from "next/image";
 export const Cards = () => {
   return (
+  <div>
     <div className="cards">
       {CardsData.map((card, index) => (
         <div className="individualCard" key={index}>
@@ -27,6 +28,8 @@ export const Cards = () => {
           </div>
         </div>
       ))}
+    </div>
+    <div className="bgEllipseImage"></div>
     </div>
   );
 };

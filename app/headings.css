@@ -12,7 +12,7 @@
 .heading3 {
   font-weight: 500;
   font-size: 20px;
-  padding-bottom: 85px;
+  padding: 20px 0px 85px 0px;
 }
 
 .postsHeading {
@@ -34,6 +34,26 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 25px 0px 40px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .break-md {
+    display: none;
+  }
+  .heading1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .heading3 {
+    text-align: center;
+  }
+  .postsHeading {
+    padding-top: 40px;
+    font-size: 25px;
+  }
+  .Subheadings {
+    justify-content: space-evenly;
+    padding: 30px 20px 40px 20px;
+  }
 }
 .organizationHeadingOne {
   font-weight: 700;
