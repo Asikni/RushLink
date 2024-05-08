@@ -20,6 +20,14 @@ export const Rankings = () => {
               width={202.75}
               height={202.75}
               alt="logos of  Fraternities and Sororities"
+              className="logoImagesNew"
+            />
+            <Image
+              src={image.logo}
+              width={47}
+              height={47}
+              alt="logo number"
+              className="logoNumber"
             />
             <div>{image.name}</div>
           </div>

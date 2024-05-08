@@ -46,67 +46,108 @@ export const CardsData = [
 export const NewsImages = [
   {
     image: "/assets/PNG/newsImageOne.png",
-    name:'Lilly',
-    date:'Oct 4, 2023',
-    newsArticle:"2024 - The Future of Greek Life Excites Me"
+    name: "Lilly",
+    date: "Oct 4, 2023",
+    newsArticle: "2024 - The Future of Greek Life Excites Me",
   },
   {
     image: "/assets/PNG/newsImageTwo.png",
-    name:'Ken',
-    date:'March 9, 2023',
-    newsArticle:"Fraternity Tips - How to Choose the Right Fraternity"
+    name: "Ken",
+    date: "March 9, 2023",
+    newsArticle: "Fraternity Tips - How to Choose the Right Fraternity",
   },
   {
-    image:  "/assets/PNG/newsImageThree.png",
-    name:'Georgia',
-    date:'Oct 4, 2021',
-    newsArticle:"Impact of Greek Life on Leadership Development"
+    image: "/assets/PNG/newsImageThree.png",
+    name: "Georgia",
+    date: "Oct 4, 2021",
+    newsArticle: "Impact of Greek Life on Leadership Development",
   },
-
 ];
 
 export const TopFSImages = [
-    {
-        name:'Tau Kappa Epsilon',
-        image: "/assets/PNG/topfsimage1.png"
-    },
-    {
-        name:'Kappa Sigma',
-        image: "/assets/PNG/topfsimage2.png"
-    },
-    {
-        name:'Sigma Alpha Epsilon',
-        image: "/assets/PNG/topfsimage3.png"
-    },
+  {
+    name: "Tau Kappa Epsilon",
+    image: "/assets/PNG/topfsimage1.png",
+    logo: "/assets/SVG/numberLogo1.svg",
+  },
+  {
+    name: "Kappa Sigma",
+    image: "/assets/PNG/topfsimage2.png",
+    logo: "/assets/SVG/numberLogo2.svg",
+  },
+  {
+    name: "Sigma Alpha Epsilon",
+    image: "/assets/PNG/topfsimage3.png",
+    logo: "/assets/SVG/numberLogo3.svg",
+  },
 
-    {
-        name:'Sigma Chi',
-        image: "/assets/PNG/topfsimage4.png"
-    },
-    {
-        name:'Sigma Phi Epsilon',
-        image: "/assets/PNG/topfsimage5.png"
-    },
-    {
-        name:'Pi Kappa Alpha',
-        image: "/assets/PNG/topfsimage6.png"
-    },
-    {
-        name:'Lambda Chi Alpha',
-        image: "/assets/PNG/topfsimage7.png"
-    },
-    {
-        name:'Pi Kappa Phi',
-        image: "/assets/PNG/topfsimage8.png"
-    },
-    {
-        name:'Sigma Nu',
-        image: "/assets/PNG/topfsimage9.png"
-    },
-    {
-        name:'Phi Delta Theta',
-        image: "/assets/PNG/topfsimage10.png"
-    },
+  {
+    name: "Sigma Chi",
+    image: "/assets/PNG/topfsimage4.png",
+    logo: "/assets/SVG/numberLogo4.svg",
+  },
+  {
+    name: "Sigma Phi Epsilon",
+    image: "/assets/PNG/topfsimage5.png",
+    logo: "/assets/SVG/numberLogo5.svg",
+  },
+  {
+    name: "Pi Kappa Alpha",
+    image: "/assets/PNG/topfsimage6.png",
+    logo: "/assets/SVG/numberLogo6.svg",
+  },
+  {
+    name: "Lambda Chi Alpha",
+    image: "/assets/PNG/topfsimage7.png",
+    logo: "/assets/SVG/numberLogo7.svg",
+  },
+  {
+    name: "Pi Kappa Phi",
+    image: "/assets/PNG/topfsimage8.png",
+    logo: "/assets/SVG/numberLogo8.svg",
+  },
+  {
+    name: "Sigma Nu",
+    image: "/assets/PNG/topfsimage9.png",
+    logo: "/assets/SVG/numberLogo9.svg",
+  },
+  {
+    name: "Phi Delta Theta",
+    image: "/assets/PNG/topfsimage10.png",
+    logo: "/assets/SVG/numberLogo10.svg",
+  },
+];
 
-
-]
+export const FSLogos = [
+  {
+    image: "/assets/SVG/fsLogo1.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo2.svg",
+    logo: "/assests/SVG/numberLogo2.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo3.svg",
+    logo: "/assests/SVG/numberLogo3.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo4.svg",
+    logo: "/assests/SVG/numberLogo4.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo5.svg",
+    logo: "/assests/SVG/numberLogo5.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo6.svg",
+    logo: "/assests/SVG/numberLogo6.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo7a.svg",
+    logo: "/assests/SVG/numberLogo7.svg",
+  },
+  {
+    image: "/assets/SVG/fsLogo8.svg",
+    logo: "/assests/SVG/numberLogo8.svg",
+  },
+];

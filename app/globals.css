@@ -146,32 +146,50 @@ input {
   color: var(--Primary);
 }
 .fsLogosBox {
-  padding: 55px 0px 0px 85px;
+  padding: 55px 0px 0px 125px;
 }
 .fsLogos {
-  border: var(--BlueBorder);
   width: 1105px;
   height: 500px;
   overflow-y: hidden;
+  position: relative;
 }
-
+.whatever {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 95px;
+  padding: 50px;
+}
 .horizontalLine {
   border-bottom: 1px solid var(--Grey);
-  margin-top: 250px;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  left: 0px;
 }
 
 .verticalLineOne {
-  border-left: 1px solid rgba(193, 193, 193, 1);
+  border-left: 1px solid var(--Grey);
   height: 500px;
-  margin-left: 250px;
+  position: absolute;
+  top: 0px;
+  left: 276px;
 }
+
 .verticalLineTwo {
   border-left: 1px solid var(--Grey);
   height: 500px;
-  margin-left: 100px;
+  position: absolute;
+  top: 0px;
+  left: 552.5px;
 }
 .verticalLineThree {
   border-right: 1px solid var(--Grey);
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 850px;
 }
 
 .newsPreview {
@@ -210,5 +228,17 @@ input {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 150px;
+
+  border: var(--BlueBorder);
+}
+.logoImagesNew {
+  position: relative;
+}
+.logoNumber {
+  position: absolute;
+
+}
+.logInButton{
+  border: var(--GreenBorder);
 }
