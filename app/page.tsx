@@ -13,7 +13,7 @@ export default function Home() {
       <Organizations />
       <News/>
       <Rankings />
-      <LogIn />
+      {/* <LogIn /> */}
     </div>
   );
 }

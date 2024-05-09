@@ -16,8 +16,7 @@ export const News = () => {
             />
             <div className="newsPreviewText">
               <div className="newsNameDate">
-                {image.name}
-                {image.date}
+                {image.name} {image.date}
               </div>
               <div className="newsArticlePreview">{image.newsArticle}</div>
             </div>

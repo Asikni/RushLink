@@ -25,9 +25,9 @@ export const FsLogos = () => {
             </div>
           ))}
         </div>
-        <div>
-          <div className="moreLogos"></div>
-          <div className="moreLogos"></div>
+        <div className="moreLogos">
+          <div className="moreLogosSign"></div>
+          <div className="moreLogosText"></div>
         </div>
       </div>
     </div>
