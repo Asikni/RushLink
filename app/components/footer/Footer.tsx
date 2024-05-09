@@ -26,6 +26,7 @@ export const Footer = () => {
                       width={36.67}
                       height={36.67}
                       alt="social media logo"
+                      className="socialMediaLogoFooter"
                     />
                   </div>
                 ))}

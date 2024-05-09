@@ -16,7 +16,8 @@
   color: rgba(255, 255, 255, 1);
   font-family: "DM Sans";
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  /* outline: var(--GreenBorder); */
 }
 
 body {
@@ -53,14 +54,14 @@ input {
   padding-top: 30px;
 }
 .sliderImages {
-  background-image: url("/assets/PNG/sliderImage.png");
-  width: 522px;
-  height: 391px;
-  background-repeat: no-repeat;
-  z-index: 10;
-  position: relative;
+  display: flex;
 }
-
+.nea {
+ 
+}
+.heroSliderImage {
+  
+}
 .dotsLogoOne {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
@@ -242,18 +243,25 @@ input {
 }
 
 .fsLogoImages {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 150px;
-
-  border: var(--BlueBorder);
 }
 .logoImagesNew {
   position: relative;
+  z-index: 0;
 }
 .logoNumber {
   position: absolute;
+  z-index: 10;
+
+  transform: translate(165%, -50%);
+}
+.logoImageName {
+  text-align: center;
+  padding-top: 15px;
 }
 @media only screen and (max-width: 768px) {
   .sliderImages {
@@ -391,8 +399,6 @@ input {
   .newsArticlePreview {
     font-weight: 500;
     font-size: 20px;
-
- 
   }
   .rankingSection {
     padding: 0px 0px 0px 0px;

@@ -1,3 +1,12 @@
+export const heroSliderImages = [
+  {
+    image: "/assets/PNG/sliderImage.png",
+  },
+  {
+    image: "/assets/PNG/sliderImage.png",
+  },
+];
+
 export const NavBarData = [
   {
     title: "Home",

@@ -12,26 +12,32 @@ export const Rankings = () => {
         <br />
         (Excluding Cultural & Honors Fraternities)
       </div>
-      <div className="fsLogoImages">
-        {TopFSImages.map((image, index) => (
-          <div key={index}>
-            <Image
-              src={image.image}
-              width={202.75}
-              height={202.75}
-              alt="logos of  Fraternities and Sororities"
-              className="logoImagesNew"
-            />
-            <Image
-              src={image.logo}
-              width={47}
-              height={47}
-              alt="logo number"
-              className="logoNumber"
-            />
-            <div>{image.name}</div>
-          </div>
-        ))}
+      <div className="neapa">
+        <div className="fsLogoImages">
+          {TopFSImages.map((image, index) => (
+            <div key={index}>
+              <div>
+                <Image
+                  src={image.logo}
+                  width={47}
+                  height={47}
+                  alt="logo number"
+                  className="logoNumber"
+                />
+              </div>
+              <div>
+                <Image
+                  src={image.image}
+                  width={202.75}
+                  height={202.75}
+                  alt="logos of  Fraternities and Sororities"
+                  className="logoImagesNew"
+                />
+              </div>
+              <div className="logoImageName">{image.name}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

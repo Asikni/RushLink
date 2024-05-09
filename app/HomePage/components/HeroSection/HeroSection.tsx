@@ -3,7 +3,7 @@ import { SearchBar } from "./searchbar";
 
 export const Hero = () => {
   return (
-    <div className="heroSection" >
+    <div className="heroSection">
       <div className="heroHeading">
         <div className="heading1">
           Welcome To <br className="break-md" />
@@ -16,7 +16,10 @@ export const Hero = () => {
         <SearchBar />
       </div>
 
-      <div>
+      <div
+        className="heroSliderContainer"
+        style={{ border: "1px solid red", width: "522px" }}
+      >
         <HeroSlider />
       </div>
     </div>
