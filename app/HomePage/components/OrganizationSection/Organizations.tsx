@@ -5,12 +5,14 @@ export const Organizations = () => {
   return (
     <div className="organizations">
       <div className="organizationHeadingOne">
-         bonded in brotherhood and
-        <div className="organizationHeadingTwo">sisterhood.</div>
+        bonded in brotherhood and
+        <br className="break-md" /> sisterhood.
       </div>
-      <div className="organizationHeadingThree" >Across a wide range of Organizations</div>
+      <div className="organizationHeadingThree">
+        Across a wide range of Organizations
+      </div>
       <div>
-       <FsLogos/>
+        <FsLogos />
       </div>
     </div>
   );
