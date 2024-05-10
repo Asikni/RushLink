@@ -31,17 +31,27 @@
 .Contact,
 .Resources {
   color: var(--Primary);
-  padding: 10px 0px 76px 0px;
+  padding: 10px 0px 60px 0px;
 }
 .siteLinks {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
-  border: var(--GreenBorder);
-  gap: 50px;
+  justify-content: space-between;
+  height: 65%;
 }
-.rl {
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45%;
+}
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+}
+.copyright {
   display: flex;
   justify-content: center;
   padding: 55px 0px;
@@ -93,17 +103,12 @@
     padding: 10px 0px 30px 0px;
   }
   .siteLinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
-    border: var(--GreenBorder);
-    height: 70%;
-    gap: 0px;
+    height: 75%;
   }
-  .rl {
-    display: flex;
-    justify-content: center;
-    padding: 55px 0px;
+  .contact {
+    height: 50%;
+  }
+  .resources {
+    height: 75%;
   }
 }

@@ -16,7 +16,7 @@
   color: rgba(255, 255, 255, 1);
   font-family: "DM Sans";
   box-sizing: border-box;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   /* outline: var(--GreenBorder); */
 }
 
@@ -50,17 +50,16 @@ input {
 .searchComponent {
   display: flex;
 }
+
+.heroSliderContainer {
+  border: var(--RedBorder);
+  width: 522px;
+}
 .heroSliderSection {
   padding-top: 30px;
 }
 .sliderImages {
   display: flex;
-}
-.nea {
- 
-}
-.heroSliderImage {
-  
 }
 .dotsLogoOne {
   background-image: url("/assets/SVG/dotsLogo.svg");
@@ -242,31 +241,46 @@ input {
   padding: 0px 55px 0px 55px;
 }
 
+.logoImagesContainer {
+  position: relative;
+  overflow: visible;
+}
+.qwer {
+  overflow: visible;
+
+  /* 
+  overflow-x: hidden; */
+}
 .fsLogoImages {
-  padding-top: 50px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 150px;
+  column-gap: 50px;
+  row-gap: 50px;
+  overflow: visible;
 }
+
 .logoImagesNew {
-  position: relative;
-  z-index: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 202.75px;
+  width: 202.75px;
 }
 .logoNumber {
   position: absolute;
-  z-index: 10;
-
-  transform: translate(165%, -50%);
+  top: -10%;
 }
 .logoImageName {
   text-align: center;
   padding-top: 15px;
 }
 @media only screen and (max-width: 768px) {
-  .sliderImages {
+  .heroSliderContainer {
     display: none;
   }
+
   .dotsLogoOne {
     display: none;
   }
@@ -403,21 +417,33 @@ input {
   .rankingSection {
     padding: 0px 0px 0px 0px;
   }
+  .qwer {
+    overflow: visible;
+    width: 350px;
+
+    margin-left: 35px;
+    /* 
+    overflow-x: hidden; */
+  }
   .fsLogoImages {
-    padding: 0px 5px 0px 45px;
+    padding: 0px 350px 0px 0px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 15px;
-    width: max-content;
+    column-gap: 26px;
+    row-gap: 0px;
+    /* overflow: visible; */
   }
+
   .logoImagesNew {
-    position: relative;
-    width: 152px;
-    height: 152px;
+    height: 152.06px;
+    width: 152.06px;
+    background-size: contain;
   }
   .logoNumber {
     position: absolute;
+    top: -12%;
   }
 }
 .logInComponent {

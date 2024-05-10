@@ -16,10 +16,7 @@ export const Hero = () => {
         <SearchBar />
       </div>
 
-      <div
-        className="heroSliderContainer"
-        style={{ border: "1px solid red", width: "522px" }}
-      >
+      <div className="heroSliderContainer">
         <HeroSlider />
       </div>
     </div>

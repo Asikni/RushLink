@@ -116,6 +116,7 @@ export const TopFSImages = [
     image: "/assets/PNG/topfsimage7.png",
     logo: "/assets/SVG/numberLogo7.svg",
   },
+
   {
     name: "Pi Kappa Phi",
     image: "/assets/PNG/topfsimage8.png",

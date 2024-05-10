@@ -63,7 +63,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="rl">© 2023 - Rushlink.com</div>
+      <div className="copyright">© 2023 - Rushlink.com</div>
     </div>
   );
 };
