@@ -2,7 +2,7 @@
   font-weight: 700;
   font-size: 60px;
   font-family: "DM Sans";
-  padding: 55px;
+  padding: 75px 55px 55px 55px;
 }
 
 .heading2 {
@@ -20,6 +20,7 @@
   font-size: 60px;
   color: var(--Primary);
   text-align: center;
+  padding-top: 225px;
 }
 
 .postSubHeading {

@@ -18,7 +18,7 @@ export const HeroSlider = () => {
         </div>
       </div>
       <div className="dotsLogoTwo"></div>
-      {/* <div className="dotsLogoOne"></div> */}
+      <div className="dotsLogoOne"></div>
       {/* <div className="greyBgImage"></div> */}
     </div>
   );

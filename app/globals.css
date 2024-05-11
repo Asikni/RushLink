@@ -28,6 +28,8 @@ body {
 .heroSection {
   display: flex;
   justify-content: space-between;
+  border: var(--GreenBorder);
+  overflow: visible;
 }
 
 input {
@@ -54,7 +56,12 @@ input {
 .heroSliderContainer {
   width: 522px;
   position: relative;
+  border: var(--GreenBorder);
+  z-index: 10;
+  overflow: visible;
+  padding-top: 30px;
 }
+
 .heroSliderSection {
   padding-top: 30px;
 }
@@ -65,9 +72,13 @@ input {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
   height: 295px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
-  top: 0;
-  left: 0;
+  z-index: -10;
+  top: 55%;
+  left: -15%;
 }
 
 .dotsLogoTwo {
@@ -77,8 +88,8 @@ input {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  z-index: 1;
-  top: -10%;
+  z-index: 0;
+  top: 2%;
   left: 40%;
 }
 
