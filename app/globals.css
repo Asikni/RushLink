@@ -52,8 +52,8 @@ input {
 }
 
 .heroSliderContainer {
-  border: var(--RedBorder);
   width: 522px;
+  position: relative;
 }
 .heroSliderSection {
   padding-top: 30px;
@@ -65,20 +65,21 @@ input {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
   height: 295px;
-  position: relative;
-  z-index: 1;
-  top: -460px;
-  left: -80px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .dotsLogoTwo {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
   height: 295px;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   z-index: 1;
-  top: -440px;
-  left: 210px;
+  top: -10%;
+  left: 40%;
 }
 
 /* .greyBgImage {
@@ -245,7 +246,7 @@ input {
   position: relative;
   overflow: visible;
 }
-.qwer {
+.fsLogoImagesContainer {
   overflow: visible;
 
   /* 
@@ -259,6 +260,9 @@ input {
   column-gap: 50px;
   row-gap: 50px;
   overflow: visible;
+}
+.fsLogoImagesContainerMobile {
+  display: none;
 }
 
 .logoImagesNew {
@@ -345,7 +349,6 @@ input {
     height: 200px;
     overflow-y: hidden;
     position: relative;
-    border: var(--RedBorder);
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -356,7 +359,8 @@ input {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     gap: 0px;
-    padding: 0px 55px 0px 15px;
+    padding: 0px 30px 0px 0px;
+    border: var(--GreenBorder);
   }
   .horizontalLine,
   .verticalLineOne,
@@ -365,12 +369,12 @@ input {
     display: none;
   }
   .topFSLogos {
-    width: 55.64px;
-    height: 55.64px;
+    width: 60.64px;
+    height: 60.64px;
   }
   .moreLogos {
     display: flex;
-    padding-left: 150px;
+    border: var(--GreenBorder);
   }
   .moreLogosSign {
     background-image: url("/assets/SVG/plusMobile.svg");
@@ -417,15 +421,16 @@ input {
   .rankingSection {
     padding: 0px 0px 0px 0px;
   }
-  .qwer {
+  .fsLogoImagesContainer {
+    display: none;
+  }
+  .fsLogoImagesContainerMobile {
     overflow: visible;
     width: 350px;
-
+    display: flex;
     margin-left: 35px;
-    /* 
-    overflow-x: hidden; */
   }
-  .fsLogoImages {
+  .fsLogoImagesMobile {
     padding: 0px 350px 0px 0px;
     display: flex;
     flex-direction: row;
@@ -433,17 +438,24 @@ input {
     flex-wrap: nowrap;
     column-gap: 26px;
     row-gap: 0px;
-    /* overflow: visible; */
+    overflow: visible;
+
+    border: var(--BlueBorder);
   }
 
-  .logoImagesNew {
+  .logoImagesNewMobile {
     height: 152.06px;
     width: 152.06px;
     background-size: contain;
   }
-  .logoNumber {
+  .logoNumberMobile {
     position: absolute;
-    top: -12%;
+    top: -15%;
+    left: 35%;
+  }
+  .logoImageNameMobile {
+    padding-top: 10px;
+    text-align: center;
   }
 }
 .logInComponent {
