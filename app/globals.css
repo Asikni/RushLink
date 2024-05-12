@@ -115,6 +115,7 @@ input {
   display: flex;
   padding: 35px 75px 0px 75px;
   justify-content: space-evenly;
+  border: var(--GreenBorder);
 }
 
 .individualCard {
@@ -132,7 +133,8 @@ input {
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
-  top: -50px;
+  top: -240px;
+  left: -20px;
   z-index: 10;
 }
 
@@ -259,9 +261,21 @@ input {
 }
 .fsLogoImagesContainer {
   overflow: visible;
+  border: var(--GreenBorder);
+  position: relative;
 
   /* 
   overflow-x: hidden; */
+}
+.dotsLogoThree {
+  background-image: url("/assets/SVG/dotsLogo.svg");
+  width: 295px;
+  height: 295px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 78%;
+  top:-50%
 }
 .fsLogoImages {
   display: flex;
@@ -272,6 +286,7 @@ input {
   row-gap: 50px;
   overflow: visible;
 }
+
 .fsLogoImagesContainerMobile {
   display: none;
 }
@@ -297,6 +312,9 @@ input {
   }
 
   .dotsLogoOne {
+    display: none;
+  }
+  .dotsLogoTwo {
     display: none;
   }
   input {
