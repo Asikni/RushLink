@@ -41,7 +41,7 @@
   font-weight: 700;
   font-size: 60px;
   color: var(--Primary);
-  padding: 200px 55px 35px 55px;
+  padding: 0px 55px 35px 55px;
 }
 
 .organizationHeadingTwo {
@@ -57,7 +57,7 @@
   font-weight: 700;
   font-size: 60px;
   color: var(--Primary);
-  padding: 75px 55px 50px 55px;
+  padding: 100px 55px 50px 55px;
 }
 
 .rankingHeading {
@@ -82,7 +82,7 @@
 .logInHeading {
   font-weight: 700;
   font-size: 60px;
-  background-color: transparent;
+  /* background-color: transparent; */
   padding-bottom: 10px;
 }
 
@@ -90,7 +90,8 @@
   font-weight: 500;
   font-size: 25px;
   padding-bottom: 40px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  text-align: center;
 }
 
 .footerHeadings {
@@ -152,6 +153,23 @@
     font-size: 14px;
     text-align: center;
   }
+  .logInHeading {
+    font-weight: 700;
+    font-size: 25px;
+    /* background-color: transparent; */
+    padding: 0px 45px 10px 45px;
+    text-align: center;
+  }
+  
+  .logInSubHeading {
+    font-weight: 400;
+    font-size: 14px;
+
+    /* background-color: transparent; */
+    text-align: center;
+    padding: 0px 40px 40px 40px;
+  }
+
   .footerHeadings {
     width: 100%;
   }
@@ -165,4 +183,6 @@
     font-size: 14px;
     padding: 0px 0px 0px 0px;
   }
+
+
 }

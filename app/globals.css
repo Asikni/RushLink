@@ -68,6 +68,22 @@ input {
 .sliderImages {
   display: flex;
 }
+
+.heroSliderImageLight {
+  background-image: url("/assets/PNG/.heroSliderImageLight.png");
+  width: 406px;
+  height: 780px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+  /* position: relative;
+  border: 1px solid red;
+  background-color: rgba(20, 20, 20, 1);
+  width: 406;
+  height: 780px;
+  top: -400px;
+  z-index: 0; */
+}
 .dotsLogoOne {
   background-image: url("/assets/SVG/dotsLogo.svg");
   width: 295px;
@@ -177,6 +193,21 @@ input {
 .dislikes {
   color: var(--Primary);
 }
+.organizations {
+  position: relative;
+  overflow: visible;
+}
+.bgEllipseImage2 {
+  background-image: url("/assets/SVG/ellipseOrganizations.svg");
+  width: 622px;
+  height: 622px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -20%;
+  left: 70%;
+  z-index: 10;
+}
 .fsLogosBox {
   padding: 55px 0px 0px 125px;
 }
@@ -275,14 +306,14 @@ input {
   background-repeat: no-repeat;
   position: absolute;
   left: 78%;
-  top:-50%
+  top: -50%;
 }
 .fsLogoImages {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  column-gap: 50px;
+  column-gap: 75px;
   row-gap: 50px;
   overflow: visible;
 }
@@ -305,6 +336,68 @@ input {
 .logoImageName {
   text-align: center;
   padding-top: 15px;
+}
+
+.logInComponent {
+  padding: 200px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  border: var(--GreenBorder);
+}
+
+.logInBgImage {
+  background-image: url("/assets/PNG/logInImage.png");
+  width: 1067px;
+  height: 409px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  overflow: visible;
+}
+.logInBgImage2 {
+  background-image: url("/assets/PNG/logInImage2.png");
+  width: 1000px;
+  height: 415px;
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-self: center; */
+  position: absolute;
+  top: 5%;
+}
+
+.logInImageContent {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 100px;
+}
+.logInButton {
+  font-size: 25px;
+  font-weight: 500;
+  background-color: transparent;
+  width: 222px;
+  height: 75px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 19px;
+  align-self: center;
+}
+
+.bgLogoone {
+  display: flex;
+  justify-content: right;
+}
+.bgLogo {
+  background-image: url("/assets/SVG/bgImageLogo.svg");
+  width: 42%;
+  height: 155px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 100px;
 }
 @media only screen and (max-width: 768px) {
   .heroSliderContainer {
@@ -382,7 +475,9 @@ input {
     flex-direction: column;
     gap: 25px;
   }
-
+  .bgEllipseImage2 {
+    display: none;
+  }
   .OrganizationsLogos {
     display: flex;
     justify-content: space-evenly;
@@ -486,42 +581,42 @@ input {
     padding-top: 10px;
     text-align: center;
   }
-}
-.logInComponent {
-  padding: 100px 0px 0px 106px;
-  border: var(--GreenBorder);
-}
+  .logInComponent {
+    padding: 200px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    border: var(--BlueBorder);
+  }
 
-.logInBgImage {
-  background-image: url("/assets/PNG/logInImage.png");
-  width: 1067px;
-  height: 409px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-}
-.logInImageContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding-top: 100px;
-}
-.logInButton {
-  font-size: 25px;
-  font-weight: 500;
-  background-color: transparent;
-}
-.bgLogoone {
-  display: flex;
-  justify-content: right;
-}
-.bgLogo {
-  background-image: url("/assets/SVG/bgImageLogo.svg");
-  width: 42%;
-  height: 155px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-top: 400px;
+  .logInBgImage {
+    background-image: url("/assets/PNG/logInImageMobile.png");
+    width: 259px;
+    height: 308px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .logInBgImage2 {
+    display: none;
+  }
+  .logInImageContent {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 0px;
+    border: 1px solid red;
+  }
+  .logInButton {
+    font-weight: 400;
+    width: 114px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .bgLogo {
+    display: none;
+  }
 }

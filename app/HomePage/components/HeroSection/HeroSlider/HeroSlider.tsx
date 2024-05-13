@@ -3,7 +3,10 @@ import Image from "next/image";
 export const HeroSlider = () => {
   return (
     <div className="heroSliderSection">
-      <div className="nea" style={{width:`${heroSliderImages.length * 522}px`}}>
+      <div
+        className="nea"
+        style={{ width: `${heroSliderImages.length * 522}px` }}
+      >
         <div className="sliderImages">
           {heroSliderImages.map((sliderImage, index) => (
             <div key={index} className="heroSliderImage">
@@ -18,7 +21,9 @@ export const HeroSlider = () => {
         </div>
       </div>
       <div className="dotsLogoTwo"></div>
+      {/* <div className="heroSliderImageLight"> </div> */}
       <div className="dotsLogoOne"></div>
+
       {/* <div className="greyBgImage"></div> */}
     </div>
   );

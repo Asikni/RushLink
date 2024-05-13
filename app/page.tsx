@@ -7,13 +7,21 @@ import { Rankings } from "./HomePage/components/RankingsSection";
 
 export default function Home() {
   return (
-    <div>
-      <Hero />
-      <Posts />
-      <Organizations />
-      <News/>
-      <Rankings />
-      {/* <LogIn /> */}
+    <div
+      style={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <div style={{ maxWidth: "1680px" }}>
+        <Hero />
+        <Posts />
+        <Organizations />
+        <News />
+        <Rankings />
+        <LogIn />
+      </div>
     </div>
   );
 }
