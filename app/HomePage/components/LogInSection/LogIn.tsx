@@ -4,10 +4,11 @@ import { LogInButton } from "./componentss/Button";
 export const LogIn = () => {
   return (
     <div className="logInComponent">
+      &apos;
       <div className="logInBgImage">
         <div className="logInBgImage2"></div>
         <div className="logInImageContent">
-          <h1 className="logInHeading">Didn't find your school?</h1>
+          <h1 className="logInHeading">Didn&apos;t find your school?</h1>
           <h2 className="logInSubHeading">
             Request for your school to be featured on
           </h2>
@@ -20,9 +21,7 @@ export const LogIn = () => {
       </div>
       <div className="bgLogoone">
         <div className="bgLogo"></div>
-     
       </div>
     </div>
-    
   );
 };

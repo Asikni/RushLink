@@ -6,8 +6,8 @@ export const FsLogos = () => {
       <div className="fsLogos">
         <div className="OrganizationsLogos">
           <div className="horizontalLine"></div>
-          {FSLogos.map((logo) => (
-            <div>
+          {FSLogos.map((logo, index) => (
+            <div key={index}>
               {
                 <Image
                   src={logo.image}
@@ -25,9 +25,12 @@ export const FsLogos = () => {
             </div>
           ))}
         </div>
-        <div className="moreLogos">
-          <div className="moreLogosSign"></div>
-          <div className="moreLogosText"></div>
+        <div className="moreLogosContainer">
+          <div className="moreLogos">
+            <div className="moreLogosSign"></div>
+            <div className="moreLogosText"></div>
+            <div className="bgDotsImageMobile4"></div>
+          </div>
         </div>
       </div>
     </div>

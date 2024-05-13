@@ -56,6 +56,18 @@ export const CardsData = [
     DislikesLogo: "/assets/SVG/Dislikes.svg",
     Dislikes: 5,
   },
+  {
+    cardHeading: "The intelligence agencies have failed",
+    cardComments: "We are at the mercy of hands that are not our own.",
+    cardBy: "AaBad",
+    DateTime: "Apr 28, 2023 8:48:20 PM",
+    ViewsLogo: "/assets/SVG/Views.svg",
+    Views: 105,
+    LikesLogo: "/assets/SVG/Likes.svg",
+    Likes: 12,
+    DislikesLogo: "/assets/SVG/Dislikes.svg",
+    Dislikes: 5,
+  },
 ];
 
 export const NewsImages = [

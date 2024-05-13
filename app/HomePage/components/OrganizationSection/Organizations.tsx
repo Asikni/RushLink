@@ -8,6 +8,7 @@ export const Organizations = () => {
         bonded in brotherhood and
         <br className="break-md" /> sisterhood.
         <div className="bgEllipseImage2"></div>
+        <div className="bgDotsImageMobile3"></div>
       </div>
       <div className="organizationHeadingThree">
         Across a wide range of Organizations

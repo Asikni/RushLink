@@ -4,6 +4,7 @@ export const Posts = () => {
   return (
     <div>
       <div className="postsHeading">Featured Posts</div>
+
       <div className="postSubHeading">
         <div className="postSubHeading Subheadings">
           <p>Connect</p>
@@ -13,7 +14,8 @@ export const Posts = () => {
           <p>Thrive!!</p>
         </div>
       </div>
-      <div>
+      <div className="cardsContainer">
+        <div className="bgDotsImageMobile2"></div>
         <Cards />
       </div>
     </div>

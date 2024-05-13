@@ -21,6 +21,7 @@
   color: var(--Primary);
   text-align: center;
   padding-top: 225px;
+  border: 1px solid orchid;
 }
 
 .postSubHeading {
@@ -35,6 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 25px 0px 40px 0px;
+
 }
 
 .organizationHeadingOne {
@@ -120,6 +122,8 @@
   .postsHeading {
     padding-top: 40px;
     font-size: 25px;
+    position: relative;
+    overflow: visible;
   }
   .Subheadings {
     justify-content: space-evenly;
@@ -129,6 +133,7 @@
     font-size: 25px;
     text-align: center;
     padding: 100px 35px 35px 35px;
+    position: relative;
   }
   .organizationHeadingThree {
     font-size: 14px;
@@ -160,7 +165,7 @@
     padding: 0px 45px 10px 45px;
     text-align: center;
   }
-  
+
   .logInSubHeading {
     font-weight: 400;
     font-size: 14px;
@@ -183,6 +188,4 @@
     font-size: 14px;
     padding: 0px 0px 0px 0px;
   }
-
-
 }
