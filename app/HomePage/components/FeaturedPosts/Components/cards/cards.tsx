@@ -20,7 +20,7 @@ export const Cards = () => {
           <div className="individualCard" key={index}>
             <div className="cardTopHeading">{card.cardHeading}</div>
             <div className="cardComment">{card.cardComments}</div>
-            <div style={{ border: "1px solid red" }} className="cardFooter">
+            <div  className="cardFooter">
               <div className="byDate">
                 <div>{card.cardBy}</div>
                 <div>{card.DateTime}</div>

@@ -13,7 +13,7 @@ export const Rankings = () => {
         (Excluding Cultural & Honors Fraternities)
       </div>
       <div className="fsLogoImagesContainer">
-      <div className="dotsLogoThree"></div>
+        <div className="dotsLogoThree"></div>
         <div
           className="fsLogoImages"
           // style={{ width: `${TopFSImages.length * 202.75}px` }}
@@ -38,11 +38,11 @@ export const Rankings = () => {
           ))}
         </div>
       </div>
-    
+          
       <div className="fsLogoImagesContainerMobile">
         <div
           className="fsLogoImagesMobile"
-          style={{ width: `${TopFSImages.length * 202.75}px` }}
+          style={{ width: `${TopFSImages.length * 202}px` }}
         >
           {TopFSImages.map((image, index) => (
             <div key={index} className="logoImagesContainer">

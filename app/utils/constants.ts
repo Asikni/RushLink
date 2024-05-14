@@ -89,6 +89,12 @@ export const NewsImages = [
     date: "Oct 4, 2021",
     newsArticle: "Impact of Greek Life on Leadership Development",
   },
+  {
+    image: "/assets/PNG/newsImageThree.png",
+    name: "Georgia",
+    date: "Oct 4, 2021",
+    newsArticle: "Impact of Greek Life on Leadership Development",
+  },
 ];
 
 export const TopFSImages = [

@@ -55,7 +55,7 @@ input {
 .heroSliderContainer {
   width: 522px;
   position: relative;
-  border: var(--GreenBorder);
+
   z-index: 10;
   overflow: visible;
   padding-top: 30px;
@@ -132,7 +132,7 @@ input {
 }
 .cardsInnerContainer {
   width: 1069px;
-  border: var(--RedBorder);
+
 }
 .cards {
   display: flex;
@@ -261,16 +261,18 @@ input {
   top: 0px;
   left: 850px;
 }
-
+.newsPreviewContainer {
+  width: 1200px;
+  margin-left: 75px;
+  overflow: hidden;
+}
 .newsPreview {
   display: flex;
   position: relative;
-  border: var(--BlueBorder);
-  padding: 0px 55px 0px 55px;
+  padding: 0px 0px 0px 0px;
   justify-content: space-between;
 }
 .newsPreviewText {
-  border: var(--GreenBorder);
   position: absolute;
   width: 370px;
   top: 300px;
@@ -299,7 +301,6 @@ input {
 }
 .fsLogoImagesContainer {
   overflow: visible;
-  border: var(--GreenBorder);
   position: relative;
 
   /* 
@@ -349,7 +350,6 @@ input {
   padding: 200px 0px 0px 0px;
   display: flex;
   flex-direction: column;
-  border: var(--GreenBorder);
 }
 
 .logInBgImage {
@@ -433,7 +433,9 @@ input {
   input {
     width: 269px;
     height: 52px;
+    text-size-adjust: none;
   }
+
   .searchMagnifyingBox {
     background-image: url("/assets/SVG/magnifierSearchMobile.svg");
     width: 55px;
@@ -458,6 +460,8 @@ input {
   }
   .cardsInnerContainer {
     width: 316px;
+    padding-left: 0px;
+    
   }
   /* .cards {
     display: flex;
@@ -468,14 +472,15 @@ input {
   .cards {
     display: flex;
     justify-content: center;
-    padding: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     /* width: 710px; */
-    gap: 25px;
+    gap: 0px;
+   
   }
 
   .individualCard {
     height: 350px;
-    width: 100%;
+    /* width: 100%; */
   }
   .cardTopHeading {
     padding: 20px 0px 20px 25px;
@@ -567,7 +572,7 @@ input {
     position: absolute;
     top: 40%;
     left: 11%;
-    border: var(--GreenBorder);
+   
   }
   .moreLogosSign {
     background-image: url("/assets/SVG/plusMobile.svg");
@@ -583,10 +588,23 @@ input {
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .newsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsPreviewContainer {
+    width: 259px;
+    margin-left: 0px;
+
+    /* margin: 0px auto; */
+  }
   .newsPreview {
-    width: max-content;
-    padding: 0px 55px 0px 65px;
-    gap: 70px;
+    /* gap: 25px; */
+    position: relative;
+    padding: 0px 0px 0px 0px;
   }
 
   .newsPreviewImage {
@@ -613,32 +631,34 @@ input {
   }
   .rankingSection {
     padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .fsLogoImagesContainer {
     display: none;
   }
   .fsLogoImagesContainerMobile {
     overflow: visible;
-    width: 350px;
+    width: 326px;
     display: flex;
-    margin-left: 35px;
+    /* margin-left: 20px; */
   }
   .fsLogoImagesMobile {
-    padding: 0px 350px 0px 0px;
+    padding: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    column-gap: 26px;
+    column-gap: 18px;
     row-gap: 0px;
     overflow: visible;
-
-    border: var(--BlueBorder);
   }
 
   .logoImagesNewMobile {
-    height: 152.06px;
-    width: 152.06px;
+    height: 152px;
+    width: 152px;
     background-size: contain;
   }
   .logoNumberMobile {
@@ -651,10 +671,9 @@ input {
     text-align: center;
   }
   .logInComponent {
-    padding: 200px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     display: flex;
     flex-direction: column;
-    border: var(--BlueBorder);
   }
 
   .logInBgImage {
@@ -675,7 +694,6 @@ input {
     flex-direction: column;
     align-self: center;
     padding-top: 0px;
-    border: 1px solid red;
   }
   .logInButton {
     font-weight: 400;
