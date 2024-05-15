@@ -16,16 +16,20 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="navBar">
-        <div className="sidebar" onClick={toggleSidebar}>
-        
-        </div>
+        <div className="sidebar" onClick={toggleSidebar}></div>
         <div className={`navBarLinkMobile ${isSidebarOpen ? "open" : ""}`}>
           {NavBarData.map((data, index) => (
             <div key={index} onClick={toggleSidebar}>
               {data.title}
             </div>
           ))}
-          <span onClick ={ () => setIsSidebarOpen(false)}  className="close-btn">
+          <span
+            onClick={() => {
+              setIsSidebarOpen(false);
+              console.log("clicked");
+            }}
+            className="close-btn"
+          >
             &times;
           </span>
         </div>

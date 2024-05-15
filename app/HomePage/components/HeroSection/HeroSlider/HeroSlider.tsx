@@ -4,7 +4,7 @@ export const HeroSlider = () => {
   return (
     <div className="heroSliderSection">
       <div
-        className="nea"
+        className="sliderImagesContainer"
         style={{ width: `${heroSliderImages.length * 522}px` }}
       >
         <div className="sliderImages">
@@ -21,10 +21,7 @@ export const HeroSlider = () => {
         </div>
       </div>
       <div className="dotsLogoTwo"></div>
-      {/* <div className="heroSliderImageLight"> </div> */}
       <div className="dotsLogoOne"></div>
-
-      {/* <div className="greyBgImage"></div> */}
     </div>
   );
 };

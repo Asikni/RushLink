@@ -14,10 +14,7 @@ export const Rankings = () => {
       </div>
       <div className="fsLogoImagesContainer">
         <div className="dotsLogoThree"></div>
-        <div
-          className="fsLogoImages"
-          // style={{ width: `${TopFSImages.length * 202.75}px` }}
-        >
+        <div className="fsLogoImages">
           {TopFSImages.map((image, index) => (
             <div key={index} className="logoImagesContainer">
               <div

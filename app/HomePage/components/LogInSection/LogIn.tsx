@@ -4,7 +4,6 @@ import { LogInButton } from "./componentss/Button";
 export const LogIn = () => {
   return (
     <div className="logInComponent">
-      &apos;
       <div className="logInBgImage">
         <div className="logInBgImage2"></div>
         <div className="logInImageContent">

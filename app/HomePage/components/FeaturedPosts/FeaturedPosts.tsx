@@ -16,6 +16,7 @@ export const Posts = () => {
       </div>
       <div className="cardsContainer">
         <div className="bgDotsImageMobile2"></div>
+        <div className="bgEllipseImage"></div>
         <Cards />
       </div>
     </div>

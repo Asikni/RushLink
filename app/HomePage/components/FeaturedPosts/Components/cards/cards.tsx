@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { CardsData } from "@/app/utils/constants";
 import { useDeviceDetection } from "@/app/usehooks"; // Assuming useDeviceDetection hook exists
 import Image from "next/image";
@@ -20,7 +20,7 @@ export const Cards = () => {
           <div className="individualCard" key={index}>
             <div className="cardTopHeading">{card.cardHeading}</div>
             <div className="cardComment">{card.cardComments}</div>
-            <div  className="cardFooter">
+            <div className="cardFooter">
               <div className="byDate">
                 <div>{card.cardBy}</div>
                 <div>{card.DateTime}</div>
@@ -61,7 +61,6 @@ export const Cards = () => {
           </div>
         ))}
       </div>
-      <div className="bgEllipseImage"></div>
     </div>
   );
 };

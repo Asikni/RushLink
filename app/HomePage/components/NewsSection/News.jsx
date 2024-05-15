@@ -5,9 +5,7 @@ import { useDeviceDetection } from "@/app/usehooks";
 export const News = () => {
   const isMobile = useDeviceDetection();
   return (
-    <div className="newsPage"
-
-    >
+    <div className="newsPage">
       <div className="newsHeading">News</div>
       <div className="newsPreviewContainer">
         <div
@@ -19,14 +17,18 @@ export const News = () => {
           }}
         >
           {NewsImages.map((image, index) => (
-            <div key={index} className="individualImage">
-              <Image
+            <div
+              key={index}
+              className="individualImage"
+              style={{ backgroundImage: `url("${image.image}")` }}
+            >
+              {/* <Image
                 className="newsPreviewImage"
                 src={image.image}
                 width={370}
                 height={441}
                 alt="preview of news articles"
-              />
+              /> */}
               <div className="newsPreviewText">
                 <div className="newsNameDate">
                   {image.name} {image.date}
