@@ -17,7 +17,7 @@
   font-family: "DM Sans";
   box-sizing: border-box;
   overflow-x: hidden;
-  /* outline: var(--GreenBorder); */
+  outline: var(--GreenBorder);
 }
 
 body {
@@ -132,7 +132,6 @@ input {
 }
 .cardsInnerContainer {
   width: 1069px;
-
 }
 .cards {
   display: flex;
@@ -216,7 +215,8 @@ input {
   z-index: 10;
 }
 .fsLogosBox {
-  padding: 55px 0px 0px 125px;
+  /* padding: 55px 0px 0px 125px; */
+  
 }
 .fsLogos {
   width: 1105px;
@@ -229,7 +229,8 @@ input {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 95px;
-  padding: 50px;
+  padding: 48px;
+  border: 1px solid rebeccapurple;
 }
 .horizontalLine {
   border-bottom: 1px solid var(--Grey);
@@ -296,15 +297,18 @@ input {
 }
 
 .logoImagesContainer {
+
   position: relative;
   overflow: visible;
+  
+  
+
 }
 .fsLogoImagesContainer {
   overflow: visible;
   position: relative;
+  border: var(--GreenBorder);
 
-  /* 
-  overflow-x: hidden; */
 }
 .dotsLogoThree {
   background-image: url("/assets/SVG/dotsLogo.svg");
@@ -461,7 +465,6 @@ input {
   .cardsInnerContainer {
     width: 316px;
     padding-left: 0px;
-    
   }
   /* .cards {
     display: flex;
@@ -475,7 +478,6 @@ input {
     padding: 0px 0px 0px 0px;
     /* width: 710px; */
     gap: 0px;
-   
   }
 
   .individualCard {
@@ -572,7 +574,6 @@ input {
     position: absolute;
     top: 40%;
     left: 11%;
-   
   }
   .moreLogosSign {
     background-image: url("/assets/SVG/plusMobile.svg");
@@ -596,7 +597,7 @@ input {
     align-items: center;
   }
   .newsPreviewContainer {
-    width: 259px;
+    width: 254px;
     margin-left: 0px;
 
     /* margin: 0px auto; */
@@ -636,14 +637,23 @@ input {
     justify-content: center;
     align-items: center;
   }
+  .logoImagesContainer{
+    padding-top: 25px;
+  }
   .fsLogoImagesContainer {
     display: none;
   }
   .fsLogoImagesContainerMobile {
-    overflow: visible;
+    position: relative;
+    z-index: 1;
+    /* overflow-x:hidden;
+    overflow-y: visible; */
     width: 326px;
     display: flex;
+    align-items: center;
+    border: 1px solid red;
     /* margin-left: 20px; */
+    height: 300px;
   }
   .fsLogoImagesMobile {
     padding: 0px 0px 0px 0px;
@@ -654,17 +664,21 @@ input {
     column-gap: 18px;
     row-gap: 0px;
     overflow: visible;
+    height: 250px;
+    z-index: 1;
   }
 
   .logoImagesNewMobile {
+    position: relative;
     height: 152px;
     width: 152px;
     background-size: contain;
   }
   .logoNumberMobile {
     position: absolute;
-    top: -15%;
+    top: 0%;
     left: 35%;
+    z-index: 2;
   }
   .logoImageNameMobile {
     padding-top: 10px;

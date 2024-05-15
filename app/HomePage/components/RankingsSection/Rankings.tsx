@@ -33,33 +33,32 @@ export const Rankings = () => {
                   />
                 </div>
               </div>
-              <div className="logoImageName">{image.name}</div>
+              <p className="logoImageName">{image.name}</p>
             </div>
           ))}
         </div>
       </div>
-          
+
       <div className="fsLogoImagesContainerMobile">
         <div
           className="fsLogoImagesMobile"
-          style={{ width: `${TopFSImages.length * 202}px` }}
+          style={{ width: `${TopFSImages.length * 203}px` }}
         >
           {TopFSImages.map((image, index) => (
             <div key={index} className="logoImagesContainer">
               <div
                 className="logoImagesNewMobile"
                 style={{ backgroundImage: `url("${image.image}")` }}
-              >
-                <div className="logoNumberMobile">
-                  <Image
-                    src={image.logo}
-                    width={47}
-                    height={47}
-                    alt="logo number "
-                  />
-                </div>
-              </div>
+              ></div>
               <div className="logoImageNameMobile">{image.name}</div>
+              <div className="logoNumberMobile">
+                <Image
+                  src={image.logo}
+                  width={47}
+                  height={47}
+                  alt="logo number "
+                />
+              </div>
             </div>
           ))}
         </div>

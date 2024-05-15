@@ -14,7 +14,7 @@ export default function Home() {
         justifyContent: "center",
       }}
     >
-      <div style={{ maxWidth: "1680px" }}>
+      <div style={{ maxWidth: "1680px"}}>
         <Hero />
         <Posts />
         <Organizations />
