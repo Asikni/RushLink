@@ -25,8 +25,7 @@ export const Navbar = () => {
           ))}
           <span
             onClick={() => {
-              setIsSidebarOpen(false);
-              console.log("clicked");
+              setIsSidebarOpen(false)
             }}
             className="close-btn"
           >

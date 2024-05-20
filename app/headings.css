@@ -84,7 +84,6 @@
 .logInHeading {
   font-weight: 700;
   font-size: 60px;
-  /* background-color: transparent; */
   padding-bottom: 10px;
 }
 
@@ -92,7 +91,6 @@
   font-weight: 500;
   font-size: 25px;
   padding-bottom: 40px;
-  /* background-color: transparent; */
   text-align: center;
 }
 
@@ -161,7 +159,6 @@
   .logInHeading {
     font-weight: 700;
     font-size: 25px;
-    /* background-color: transparent; */
     padding: 0px 45px 10px 45px;
     text-align: center;
   }
@@ -169,8 +166,6 @@
   .logInSubHeading {
     font-weight: 400;
     font-size: 14px;
-
-    /* background-color: transparent; */
     text-align: center;
     padding: 0px 40px 40px 40px;
   }

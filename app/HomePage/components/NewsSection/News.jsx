@@ -1,6 +1,5 @@
 "use client";
 import { NewsImages } from "@/app/utils/constants";
-import Image from "next/image";
 import { useDeviceDetection } from "@/app/usehooks";
 export const News = () => {
   const isMobile = useDeviceDetection();
@@ -22,13 +21,6 @@ export const News = () => {
               className="individualImage"
               style={{ backgroundImage: `url("${image.image}")` }}
             >
-              {/* <Image
-                className="newsPreviewImage"
-                src={image.image}
-                width={370}
-                height={441}
-                alt="preview of news articles"
-              /> */}
               <div className="newsPreviewText">
                 <div className="newsNameDate">
                   {image.name} {image.date}

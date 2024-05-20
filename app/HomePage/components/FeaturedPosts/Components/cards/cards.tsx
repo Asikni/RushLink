@@ -1,10 +1,10 @@
 "use client";
 import { CardsData } from "@/app/utils/constants";
-import { useDeviceDetection } from "@/app/usehooks"; // Assuming useDeviceDetection hook exists
+import { useDeviceDetection } from "@/app/usehooks";
 import Image from "next/image";
 
 export const Cards = () => {
-  const isMobile = useDeviceDetection(); // Assuming useDeviceDetection returns a boolean indicating if it's a mobile device
+  const isMobile = useDeviceDetection(); 
 
   return (
     <div className="cardsInnerContainer">
